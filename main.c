@@ -28,6 +28,7 @@ char get_menu_option(){
 	fgets(resp, sizeof(resp),stdin);
 	return resp[0]; 							/*since only valid responses are 'y'/'n', we only ever care about the first index */
 }
+
 int main()
 { 
   char eqn[MAX_EQ_LEN];
